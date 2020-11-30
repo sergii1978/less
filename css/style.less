@@ -1,6 +1,6 @@
 //compress: false
 @import "vars";
-@import "title";
+
 
 html, body {
     font-size: 15px;
@@ -11,6 +11,12 @@ body {
     font-family: Arial, sans-serif;
 }
 
-//Blocks
-@import "blocks/title"; 
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
 
+//blocks
+@import "blocks/title"; 
+@import "blocks/btn";
