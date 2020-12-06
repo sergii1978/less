@@ -1,0 +1,29 @@
+// main: style.less
+
+.btn (@bg) {
+        background-color: @bg;  
+  
+        &:hover,
+        &:focus {
+          background-color: darken(@bg, 15%);
+        }
+
+}
+
+.btn--secondary (@bg) {
+    background-color: @bg;
+
+    &:hover,
+    &:focus {
+        background-color: lighten(@bg, 15%);
+    }
+}
+
+.btn--next (@bg) {
+    background-color: @bg;
+
+    &:hover,
+    &:focus {
+        background-color: lighten(@bg, 15%);
+    }
+}

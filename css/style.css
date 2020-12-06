@@ -28,10 +28,72 @@ body {
   font-size: 1rem;
   color: #ffffff;
   text-decoration: none;
+  transition: background 0.1s linear;
+}
+.btn + .btn {
+  margin-left: 1rem;
+}
+.btn:hover,
+.btn:focus {
+  outline: 0;
+  background-color: #c4c4c4;
 }
 .btn--primary {
   background-color: #194eb4;
 }
+.btn--primary:hover,
+.btn--primary:focus {
+  background-color: #103171;
+}
 .btn--secondary {
   background-color: #f2b834;
+}
+.btn--secondary:hover,
+.btn--secondary:focus {
+  background-color: #cc920d;
+}
+.btn--next {
+  background-color: #32c914;
+}
+.btn--next:hover,
+.btn--next:focus {
+  background-color: #21830d;
+}
+.btn--dis {
+  display: inline-block;
+  vertical-align: top;
+  padding: 0.5em 1em;
+  background-color: #ccc;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: 1rem;
+  color: #ffffff;
+  text-decoration: none;
+  transition: background 0.1s linear;
+}
+.btn--dis .disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.btn--dis + .btn--dis {
+  margin-left: 1rem;
+}
+.btn--dis:hover,
+.btn--dis:focus {
+  outline: 0;
+  background-color: #c4c4c4;
+}
+.btn--dis--primary {
+  background-color: #194eb4;
+}
+.btn--dis--primary:hover,
+.btn--dis--primary:focus {
+  background-color: #103171;
+}
+.btn--dis--secondary {
+  background-color: #f2b834;
+}
+.btn--dis--secondary:hover,
+.btn--dis--secondary:focus {
+  background-color: #cc920d;
 }
