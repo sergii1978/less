@@ -1,8 +1,12 @@
-//main: ../style.less
+// main: ../style.less
 
 .title {
     margin: 0;
     font-size: 2rem;
-    color: @primary;
+    color: fade(@primary, 50%);
     font-weight: 700;
+
+    @media @breakpoint-mobile {
+        font-size: 1.5rem;
+    }
 }
